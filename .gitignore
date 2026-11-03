@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+data/synthetic/
+data/banking77/
+artifacts/
+*.safetensors
+*.bin
+*.pt

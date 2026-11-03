@@ -47,7 +47,7 @@ python scripts/run_experiments.py --seeds 0,1,2      # ~4 min CPU
 | **E3 + mislabel flagging (drop flagged)** | **0.788 ± 0.004** | **0.874** |
 | O reference: same ensemble trained on *clean* labels | 0.799 ± 0.005 | 0.885 |
 
-> Resume claim: 76.2% → 80.3% | Reproduced here on the synthetic dataset (3 seeds): best single modality 70.8% → multimodal ensemble with mislabel flagging 78.8% (clean-label ceiling 79.9%) | Gap / why: different, synthetic data; the gain here comes from combining modalities (+7.7 pts); imputation added nothing and flagging +0.4 pts.
+> Resume claim: 76.2% → 80.3% | Reproduced here on the synthetic dataset (3 seeds): best single modality 70.8% → multimodal ensemble with mislabel flagging 78.8% (clean-label ceiling 79.9%) | Gap / why: different, synthetic data; the gain here comes from combining modalities (+7.6 pts, early fusion vs best single modality); imputation added nothing and flagging +0.4 pts.
 
 Mislabel flagging finds 60% of the injected flips at ~50% precision (EXPERIMENTS).
 

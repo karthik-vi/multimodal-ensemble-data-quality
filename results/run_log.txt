@@ -1,0 +1,14 @@
+Fetching 14 files:   0%|          | 0/14 [00:00<?, ?it/s]Fetching 14 files: 100%|██████████| 14/14 [00:00<00:00, 62735.32it/s]
+0 {'B1_tab_xgb_mean': 0.6888, 'B2_text_tfidf': 0.6622, 'B2b_text_sbert': 0.7098, 'B3_early_fusion_mean': 0.7847, 'E1_stack_mean': 0.7837, 'E2_stack_model_impute': 0.782, 'E3_stack_model_impute_clean_flagged': 0.7837, 'O_reference_clean_labels': 0.7958} 95s
+Fetching 14 files:   0%|          | 0/14 [00:00<?, ?it/s]Fetching 14 files: 100%|██████████| 14/14 [00:00<00:00, 27477.89it/s]
+1 {'B1_tab_xgb_mean': 0.6972, 'B2_text_tfidf': 0.6678, 'B2b_text_sbert': 0.7083, 'B3_early_fusion_mean': 0.7892, 'E1_stack_mean': 0.7902, 'E2_stack_model_impute': 0.7897, 'E3_stack_model_impute_clean_flagged': 0.792, 'O_reference_clean_labels': 0.806} 80s
+Fetching 14 files:   0%|          | 0/14 [00:00<?, ?it/s]Fetching 14 files: 100%|██████████| 14/14 [00:00<00:00, 4717.62it/s]
+2 {'B1_tab_xgb_mean': 0.6765, 'B2_text_tfidf': 0.6508, 'B2b_text_sbert': 0.705, 'B3_early_fusion_mean': 0.7768, 'E1_stack_mean': 0.7805, 'E2_stack_model_impute': 0.7768, 'E3_stack_model_impute_clean_flagged': 0.7895, 'O_reference_clean_labels': 0.7948} 80s
+B1_tab_xgb_mean                        acc 0.6875±0.0085  auc 0.7575
+B2_text_tfidf                          acc 0.6603±0.0071  auc 0.7105
+B2b_text_sbert                         acc 0.7077±0.0020  auc 0.7597
+B3_early_fusion_mean                   acc 0.7836±0.0051  auc 0.8692
+E1_stack_mean                          acc 0.7848±0.0040  auc 0.8722
+E2_stack_model_impute                  acc 0.7828±0.0053  auc 0.8710
+E3_stack_model_impute_clean_flagged    acc 0.7884±0.0035  auc 0.8739
+O_reference_clean_labels               acc 0.7989±0.0051  auc 0.8845
